@@ -1,0 +1,28 @@
+.flex-container {
+    display: flex;
+    height: 80vh;
+ justify-content: center;
+    background-color: cyan;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+}
+.flex-child-1{
+    width: 35%;
+height: 100%;
+margin-top: 20%;
+
+
+}
+.flex-child-2{
+    width: 65%;
+}
+
+.flex-child-1:first-child {
+    margin-right: 20px;
+} 
+.flex-child-2-input{
+    padding: 0.8rem 0;
+    display: flex;
+
+}

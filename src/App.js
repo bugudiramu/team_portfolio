@@ -1,61 +1,17 @@
+import './App.css';
 import React from 'react';
-import PropTypes from 'prop-types';
+import ContactUs from './pages/contact/ContactUs';
 
-export class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.ref = React.createRef();
-    this.state = {
-      isScrolling: false,
-      clientX: 0,
-      scrollX: 0,
-    };
-  }
-
-  onMouseDown = (e) => {
-    this.setState({ ...this.state, isScrolling: true, clientX: e.clientX });
-  };
-
-  onMouseUp = () => {
-    this.setState({ ...this.state, isScrolling: false });
-  };
-
-  onMouseMove = (e) => {
-    const { clientX, scrollX } = this.state;
-    if (this.state.isScrolling) {
-      this.ref.current.scrollLeft = scrollX + e.clientX - clientX;
-      this.state.scrollX = scrollX + e.clientX - clientX;
-      this.state.clientX = e.clientX;
-    }
-  };
-
-  render() {
-    const { ref, rootClass } = this.props;
-    return (
-      <div
-        ref={ref}
-        onMouseDown={this.onMouseDown}
-        onMouseUp={this.onMouseUp}
-        onMouseMove={this.onMouseMove}
-        className={rootClass}
-      >
-        {React.Children.map(this.props.children, (child) =>
-          React.Children.only(child)
-        )}
-      </div>
-    );
-  }
+import Footer from './pages/footer/Footer';
+function App() {
+  return (
+    <div className='App'>
+      {/* <CustomPinkButton />
+      <CustomCyanButton /> */}
+      <ContactUs />
+      <Footer />
+    </div>
+  );
 }
-
-App.defaultProps = {
-  ref: { current: {} },
-  rootClass: '',
-};
-
-App.propTypes = {
-  ref: PropTypes.object,
-  rootClass: PropTypes.string,
-  children: PropTypes.string,
-};
 
 export default App;

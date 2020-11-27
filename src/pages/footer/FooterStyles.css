@@ -1,0 +1,35 @@
+.footer-container{
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#333;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.footer-flex-1{
+    width: 30%;
+}
+.footer-flex-2{
+    width: 30%;
+    padding: 0.5rem 0;
+}
+.footer-flex-3{
+    width: 30%;
+}
+.footer-flex-2-flex{
+    display: flex;
+    align-items: flex-start;
+}
+h3{
+    padding: 1.5rem 0;
+    color:#aaa
+}
+p{
+    padding: 0.3rem 0;
+    color:#aaa
+}
+#footer-links{
+    padding: 0.2rem 0;
+}
+
