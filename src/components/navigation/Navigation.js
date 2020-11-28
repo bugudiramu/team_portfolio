@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Navigation.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faBars, faLeaf, faChevronRight, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faChevronRight, faTimes } from '@fortawesome/free-solid-svg-icons'
 
 const Navigation = () => {
      const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +27,7 @@ const Navigation = () => {
                                    <FontAwesomeIcon icon={faBars} style={{ fontSize: 20 }} />
                               </div>
                               : <div style={{ width: '20px' }}>
-                                   <FontAwesomeIcon icon={faTimes} style={{ fontSize: 24 }} onClick={closeNav} />
+                                   <FontAwesomeIcon icon={faTimes} style={{ fontSize: 20 }} onClick={closeNav} />
 
                               </div>
                          }
@@ -51,7 +51,7 @@ const Navigation = () => {
                               <p style={{ fontSize: '13px' }}>HOME</p>
                          </div>
                          <div>
-                              <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13, marginRight: '3rem' }} />
+                              <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13, marginRight: '5rem' }} />
                          </div>
                     </div>
                     <div style={{ padding: '0.5px', backgroundColor: '#f2f2f2', width: '100%' }}></div>
@@ -60,7 +60,7 @@ const Navigation = () => {
                               <p style={{ fontSize: '13px' }}>ABOUT</p>
                          </div>
                          <div>
-                              <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13, marginRight: '3rem' }} />
+                              <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13, marginRight: '5rem' }} />
                          </div>
                     </div>
                     <div style={{ padding: '0.5px', backgroundColor: '#f2f2f2', width: '100%' }}></div>
@@ -69,7 +69,7 @@ const Navigation = () => {
                               <p style={{ fontSize: '13px' }}>PORTFOLIO</p>
                          </div>
                          <div>
-                              <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13, marginRight: '3rem' }} />
+                              <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13, marginRight: '5rem' }} />
                          </div>
                     </div>
                     <div style={{ padding: '0.5px', backgroundColor: '#f2f2f2', width: '100%' }}></div>
@@ -78,7 +78,7 @@ const Navigation = () => {
                               <p style={{ fontSize: '13px' }}>CONTACT US</p>
                          </div>
                          <div>
-                              <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13, marginRight: '3rem' }} />
+                              <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13, marginRight: '5rem' }} />
                          </div>
                     </div>
                     <div style={{ padding: '0.5px', backgroundColor: '#f2f2f2', width: '100%' }}></div>

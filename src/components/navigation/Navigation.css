@@ -1,7 +1,7 @@
 .navigation_container{
      position: fixed;
      background-color: #191919;
-     padding:  0.2rem 0rem;
+     padding:  1.5rem 0rem;
      width: 100%;
      align-items: center;
      justify-content: space-between;
@@ -9,6 +9,7 @@
      flex-direction: row;
      z-index: 1000;
 }
+/* 191919 */
 .branding{
      padding-left: 5rem;
      /* padding-right: 5rem; */
@@ -51,7 +52,7 @@
      .navigation_container{
           position: fixed;
           background-color: white;
-          padding:  0.2rem 0rem;
+          padding:  1.5rem 0rem;
           width: 100%;
           align-items: center;
           justify-content: space-between;
@@ -67,6 +68,7 @@
      }
      .brand_head{
           color: black;
+          margin-right: 7rem;
      }
      .branding{
           padding-left: 0;
@@ -78,7 +80,7 @@
      }
      .mobileMenu{
           display: block;
-          margin-top: 55px;
+          margin-top: 70px;
           background-color: white;
           width: 100%;
           position: fixed;
@@ -95,7 +97,7 @@
           justify-content: space-between;
           align-items: center;
           width: 100%;
-          padding: 0.5rem 1.5rem;
+          padding: 1rem 1.5rem;
           
           /* margin-top: 55px; */
      }

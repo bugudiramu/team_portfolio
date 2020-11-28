@@ -25,13 +25,22 @@
      font-weight: bold;
 
    }
+   .hero-button-group{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+   }
+   .hero-each-button{
+     margin: 4rem 2rem;
+   }
    @media (max-width : 699px){
     .hero-image {
    
       width: aut0;
           /* padding : 1rem 4rem 0 4rem; */
           text-align: center;
-          background-image: url("./../../assets/banner.jpg");
+          background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("./../../assets/banner.jpg");
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
@@ -42,4 +51,11 @@
           z-index: -1;
           padding-top: 60px;
        }
+       .hero-button-group{
+        display: flex;
+        flex-direction: column;
+      }
+      .hero-each-button{
+        margin: 1rem 0;
+      }
    }

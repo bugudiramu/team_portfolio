@@ -1,0 +1,36 @@
+.testimonial-text {
+    border: solid 1px #000;        
+}
+
+.testimonial-text:before {
+    content:"";
+    position: absolute;
+    /*The right value must be calculated with: (top value of after) - (top value of before) = (right value of before) */
+    /*example: (-4px) - (-7px) = 3px*/
+    right: 72px; 
+    /*The `top` value must be identical to border-width*/
+    top: -7px; 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    /*The `border-width` value must be identical to top*/
+    border-width: 0 7px 7px 7px;
+    /*The border color 3rd (#000) value must be identical to its parent border color*/
+    border-color: transparent transparent #000 transparent;
+    /*The (z-index of before) must at least one below the (z-index of after)*/
+    /*Example: (z-index of before) < (z-index of after) or 9998 < 9999*/
+    z-index:9998;
+}
+
+.testimonial-text:after {
+    content:"";
+    position: absolute;
+    right: 75px;
+    top: -4px; /*suppose to be identical to border-width*/
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 4px 4px 4px;
+    border-color: transparent transparent #000 transparent; 
+    z-index:9999;
+}
