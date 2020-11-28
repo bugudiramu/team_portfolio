@@ -9,16 +9,20 @@ const ContactUs = () => {
     <div class='flex-container'>
       <div class='flex-child-1'>
         <h1 style={{ padding: '1.5rem 0' }}>Keep in touch.</h1>
-        <p style={{ padding: '1.5rem 0' }}>
+        <p style={{ padding: '1.5rem 0', color: 'black' }}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab
           consequuntur repellat? Commodi, fuga error.
         </p>
         <div className='address'>
-          <p style={{ padding: '0.5rem 0' }}>
+          <p style={{ padding: '0.5rem 0', color: 'black' }}>
             Address : 9/1477-23,Shanthinagar Colony
           </p>
-          <p style={{ padding: '0.5rem 0' }}>Phone Number : +91 8919308004</p>
-          <p style={{ padding: '0.5rem 0' }}>Email : ramubugudi4@gmail.com</p>
+          <p style={{ padding: '0.5rem 0', color: 'black' }}>
+            Phone Number : +91 8919308004
+          </p>
+          <p style={{ padding: '0.5rem 0', color: 'black' }}>
+            Email : ramubugudi4@gmail.com
+          </p>
         </div>
       </div>
 

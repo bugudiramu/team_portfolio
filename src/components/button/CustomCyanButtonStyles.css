@@ -1,11 +1,25 @@
 .customCyanButton {
-    padding: 15px 30px;
-    border: none;
-    color: white;
-    letter-spacing: 1.0px;
-    font-size: 10px;
-    font-weight: 600;
-    cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 19px 30px;
+  cursor: pointer;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
+  -webkit-transition-property: all;
+  transition-property: all;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: .075em;
+  text-transform: uppercase;
+  border: none;
+  outline: 0;
+  color: rgb(255, 255, 255);
 }
 
 

@@ -1,0 +1,25 @@
+.service-container{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+}
+.service-card{
+    width: 30%;
+    height: 400px;
+}
+img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+.service-container-para{
+}
+.service-card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.highlight-word{
+    color: #eb3b5a;
+}

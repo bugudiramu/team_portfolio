@@ -1,0 +1,42 @@
+.core-features-container{
+    height: 80vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.core-features-container-heading,.core-features-container-para{
+    text-align: center;
+    padding: 2rem 0;
+    width: 40%;
+    margin: 0 auto;
+}
+.core-features-container-para{
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+}
+.core-feature-card{
+    display: flex;
+    align-items: flex-start;
+    width: 25%;
+    height: 150px;
+    justify-content: space-between;
+}
+.core-featrure-card-title{
+    padding: 0.5rem 0;
+}
+.core-feature-card-img{
+height: 50px;
+width: 50px;
+object-fit: cover;
+margin: 0 1rem;
+display: flex;
+align-items: flex-start;
+}
+.core-features-flex-1{
+    display: flex;
+    justify-content: center;
+}
