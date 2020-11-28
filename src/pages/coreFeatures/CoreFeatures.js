@@ -5,6 +5,10 @@ import './CoreFeaturesStyles.css';
 const CoreFeatures = () => {
   return (
     <div className='core-features-container'>
+      <div class='scroll-left'>
+        <p>CSS scrolling text... </p>
+      </div>
+
       <h1 className='core-features-container-heading'>Core Features</h1>
       <p className='core-features-container-para'>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas
