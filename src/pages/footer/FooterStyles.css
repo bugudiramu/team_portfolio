@@ -8,6 +8,10 @@
     padding-right: 10%;
     
 }
+.footer-sub-container{
+        display: flex;
+        align-items: flex-start;
+}
 
 .footer-flex-1{
     width: 30%;
@@ -25,11 +29,11 @@
     display: flex;
     align-items: flex-start;
 }
-h3{
+.footer-flex-1-h3{
     padding: 1.5rem 0;
     color:#aaa
 }
-p{
+.footer-flex-1-para{
     padding: 0.5rem 0;
     color:#aaa
 }
@@ -37,3 +41,33 @@ p{
     padding: 0.2rem 0;
 }
 
+
+@media(max-width:600px){
+    .footer-container{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+         padding-left: 1%;
+        padding-right: 1%;
+        padding: 0 1rem;
+        
+    }
+    .footer-sub-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+}
+    .footer-flex-1{
+        width: 100%;
+        margin-right: 0;
+    }
+    .footer-flex-2{
+        width: 100%;
+        margin-right: 0;
+        padding: 0.5rem 0;
+    }
+    .footer-flex-3{
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+}

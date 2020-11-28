@@ -38,7 +38,7 @@ const ContactUs = () => {
         <div className='flex-child-2-input' style={{ width: '95%' }}>
           <CustomTextArea placeholder='Your Message' />
         </div>
-        <div className='flex-child-2-input'>
+        <div className='flex-child-2-button'>
           <CustomPinkButton text='SEND MESSAGE' />
         </div>
       </div>

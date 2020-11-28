@@ -1,6 +1,7 @@
 import React from 'react';
 import CoreFeatureCard from './CoreFeatureCard';
 import './CoreFeaturesStyles.css';
+import CustomPinkButton from './../../components/button/CustomPinkButton';
 
 const CoreFeatures = () => {
   return (
@@ -23,6 +24,9 @@ const CoreFeatures = () => {
         <CoreFeatureCard />
         <CoreFeatureCard />
         <CoreFeatureCard />
+      </div>
+      <div className='button-container'>
+        <CustomPinkButton text='more about us' />
       </div>
     </div>
   );

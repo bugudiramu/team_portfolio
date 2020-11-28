@@ -3,7 +3,6 @@
     padding-left: 10%;
     padding-right: 10%;
 
-
 }
 .service-card{
     width: 30%;
@@ -14,12 +13,32 @@ img{
     width: 100%;
     object-fit: cover;
 }
-.service-container-para{
-}
 .service-card-container{
     display: flex;
     justify-content: space-between;
 }
 .highlight-word{
     color: #eb3b5a;
+}
+.service-card-heading{
+    padding: 0.5rem 0;
+}
+
+@media(max-width:600px){
+    .service-container{
+        text-align: center;
+        padding-left: 1%;
+        padding-right: 1%;
+    
+    }
+    .service-card{
+        width: 100%;
+        height: 400px;
+    }
+    .service-card-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0.5rem;
+        /* justify-content: space-between; */
+    }
 }

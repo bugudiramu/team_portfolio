@@ -5,7 +5,7 @@
   position: relative;
   display: inline-block;
   overflow: hidden;
-  padding: 19px 30px;
+  padding: 23px 30px;
   cursor: pointer;
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
@@ -64,4 +64,3 @@
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
-  

@@ -1,10 +1,10 @@
 import React from 'react';
 import './CustomCyanButtonStyles.css';
 
-const CustomCyanButton = () => {
+const CustomCyanButton = ({ text }) => {
   return (
     <button className='hvr-shutter-out-horizontal-cyan customCyanButton'>
-      VIEW PROJECTS
+      {text}
     </button>
   );
 };

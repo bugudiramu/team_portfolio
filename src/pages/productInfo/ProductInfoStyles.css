@@ -45,3 +45,36 @@
 .works-completed{
     padding: 1rem 2rem;
 }
+
+@media(max-width:600px){
+    .product-info-container{
+        padding-left: 1%;
+        padding-right: 1%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .product-info-container-flex{
+        width: 100%;
+        
+    }
+    .product-info-container-flex-img{
+        height: 100%;
+        margin-top: 0%;
+    }
+    .product-info-container-flex-analytics{
+        display: flex;
+        flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+        
+    }
+    .flex-2>h1{
+        padding: 2.5rem 2rem;
+    }
+    .flex-2-para{
+        padding: 1rem 2rem;
+    }
+}

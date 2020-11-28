@@ -60,3 +60,9 @@
     -moz-appearance: none;
     appearance: none;
 }
+
+@media(max-width:600px){
+    .customTextInput,.customTextArea{
+        margin-bottom: 1.5rem;
+    }
+}
