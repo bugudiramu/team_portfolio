@@ -1,0 +1,111 @@
+.navigation_container{
+     position: fixed;
+     background-color: #191919;
+     padding:  0.2rem 0rem;
+     width: 100%;
+     align-items: center;
+     justify-content: space-between;
+     display: flex;
+     flex-direction: row;
+     z-index: 1000;
+}
+.branding{
+     padding-left: 5rem;
+     /* padding-right: 5rem; */
+}
+.options{
+     /* padding-left: 5rem; */
+     padding-right: 5rem;
+}
+.options ul{
+     list-style-type: none;
+}
+.options ul li{
+     display: inline;
+     margin: 0 1rem;
+     color: white;
+     font-size: 13px;
+     font-weight: bold;
+}
+.menu{
+     display: none;
+}
+.brand_head{
+     color: white;
+}
+.mobileMenu{
+      display: none;    
+}
+
+@media (max-width : 699px){
+     .options ul li{
+          display: block;
+          margin: 0 1rem;
+          color: white;
+          font-size: 13px;
+          font-weight: bold;
+     }
+     .options ul{
+          list-style-type: none;
+     }
+     .navigation_container{
+          position: fixed;
+          background-color: white;
+          padding:  0.2rem 0rem;
+          width: 100%;
+          align-items: center;
+          justify-content: space-between;
+          display: flex;
+          flex-direction: row;
+     }
+     .options{
+          /* padding-left: 5rem; */
+          padding-right: 0;
+     }
+     .options ul li{
+          display: none;
+     }
+     .brand_head{
+          color: black;
+     }
+     .branding{
+          padding-left: 0;
+          /* padding-right: 5rem; */
+     }
+     .menu{
+          display: block;
+          margin-left: 1.5rem;
+     }
+     .mobileMenu{
+          display: block;
+          margin-top: 55px;
+          background-color: white;
+          width: 100%;
+          position: fixed;
+          padding:  0;
+          transition: transform 0.3s ease-out;
+          overflow-y: none;
+          /* display: none; */
+          /* transition-property: all;
+	transition-duration: .5s; */
+     }
+     .eachMobileItem{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+          padding: 0.5rem 1.5rem;
+          
+          /* margin-top: 55px; */
+     }
+     .open{
+          transform: translateY(0)
+      }
+      .close{
+          transform: translateY(-100%);
+      }
+
+}
+
+
