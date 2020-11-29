@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+import React, { useEffect } from 'react';
 import ContactUs from './pages/contact/ContactUs';
 import Footer from './pages/footer/Footer';
 import Testimonial from './pages/testimonials/Testimonial';
@@ -10,9 +10,15 @@ import CoreFeatures from './pages/coreFeatures/CoreFeatures';
 import Navigation from './components/navigation/Navigation';
 import Hero from './components/hero/Hero';
 import Projects from './components/projects/Projects';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+
 function App() {
+  useEffect(() => {
+    Aos.init({ duration: 1500 })
+  }, [])
   return (
-    <div className='App'>
+    <div className='App' data-aos="fade-up">
       {/* <CustomPinkButton />
       <CustomCyanButton /> */}
       <Navigation />

@@ -2,11 +2,12 @@
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
-
+    margin-top: 10rem;
 }
 .service-card{
     width: 30%;
     height: 400px;
+    margin: 2rem 0;
 }
 img{
     height: 250px;
@@ -23,22 +24,36 @@ img{
 .service-card-heading{
     padding: 0.5rem 0;
 }
+.service-container-paragraph{
+    text-align: center;
+    /* padding:  0.5rem; */
+    width: 40%;
+    margin: 0 auto;
+    line-height: 25px;
+}
 
 @media(max-width:600px){
     .service-container{
         text-align: center;
         padding-left: 1%;
         padding-right: 1%;
-    
+        margin-top: 2rem;
     }
     .service-card{
         width: 100%;
         height: 400px;
+        margin: 0;
     }
     .service-card-container{
         display: flex;
         flex-direction: column;
         margin: 0 0.5rem;
         /* justify-content: space-between; */
+    }
+    .service-container-paragraph{
+        text-align: center;
+        /* padding:  0.5rem; */
+        width: 100%;
+        margin: 0 auto;
     }
 }

@@ -28,6 +28,7 @@ const CoreFeatures = () => {
       <div className='button-container'>
         <CustomPinkButton text='more about us' />
       </div>
+
     </div>
   );
 };

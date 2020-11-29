@@ -17,6 +17,7 @@
 .core-features-container-para{
     margin-top: -2rem;
     margin-bottom: 1rem;
+    line-height: 25px;
 }
 .core-feature-card{
     display: flex;
@@ -24,6 +25,7 @@
     width: 25%;
     height: 150px;
     justify-content: space-between;
+    margin: 1rem 0;
 }
 .core-featrure-card-title{
     padding: 0.5rem 0;
@@ -39,9 +41,9 @@ align-items: flex-start;
 .core-features-flex-1{
     display: flex;
     justify-content: space-around;
-
+   
 }
-.button-container{ display:flex;align-items:center; justify-content: center }
+.button-container{ display:flex;align-items:center; justify-content: center; margin: 1rem 0; }
 /* animation */
 .scroll-left {
  height: 50px;	
@@ -105,6 +107,7 @@ align-items: flex-start;
         align-items: flex-start;
         width: 100%;
         margin-bottom: -2rem;
+        margin: 0.2rem 0;
     }
 
 
@@ -117,7 +120,7 @@ align-items: flex-start;
     .core-features-container-para{
         padding-bottom: 1rem;
     }
-
+    .button-container{ display:flex;align-items:center; justify-content: center; margin:  0; }
 
     
 }

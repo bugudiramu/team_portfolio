@@ -28,14 +28,14 @@ const Navigation = () => {
               <FontAwesomeIcon icon={faBars} style={{ fontSize: 20 }} />
             </div>
           ) : (
-            <div style={{ width: '20px' }}>
-              <FontAwesomeIcon
-                icon={faTimes}
-                style={{ fontSize: 20 }}
-                onClick={closeNav}
-              />
-            </div>
-          )}
+              <div style={{ width: '20px' }}>
+                <FontAwesomeIcon
+                  icon={faTimes}
+                  style={{ fontSize: 20 }}
+                  onClick={closeNav}
+                />
+              </div>
+            )}
           {/* <h3 className='brand_head'>HI</h3> */}
         </div>
         <div className='branding'>
@@ -58,7 +58,7 @@ const Navigation = () => {
           <div>
             <FontAwesomeIcon
               icon={faChevronRight}
-              style={{ fontSize: 13, marginRight: '5rem' }}
+              style={{ fontSize: 13, }}
             />
           </div>
         </div>
@@ -76,7 +76,7 @@ const Navigation = () => {
           <div>
             <FontAwesomeIcon
               icon={faChevronRight}
-              style={{ fontSize: 13, marginRight: '5rem' }}
+              style={{ fontSize: 13, }}
             />
           </div>
         </div>
@@ -94,7 +94,7 @@ const Navigation = () => {
           <div>
             <FontAwesomeIcon
               icon={faChevronRight}
-              style={{ fontSize: 13, marginRight: '5rem' }}
+              style={{ fontSize: 13, }}
             />
           </div>
         </div>
@@ -112,7 +112,7 @@ const Navigation = () => {
           <div>
             <FontAwesomeIcon
               icon={faChevronRight}
-              style={{ fontSize: 13, marginRight: '5rem' }}
+              style={{ fontSize: 13, }}
             />
           </div>
         </div>
