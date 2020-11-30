@@ -31,7 +31,8 @@
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     position: relative;
-    background: #eb3b5a;
+    /* background: #eb3b5a; */
+    background: rgb(30, 30, 37);
     -webkit-transition-property: color;
     transition-property: color;
     -webkit-transition-duration: 0.3s;
@@ -45,7 +46,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background: #10ac84;
+    /* background: #10ac84; */
+    background: rgb(238, 238, 238);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 50%;
@@ -58,7 +60,7 @@
     transition-timing-function: ease-out;
   }
   .hvr-shutter-out-horizontal-pink:hover, .hvr-shutter-out-horizontal-pink:focus, .hvr-shutter-out-horizontal-pink:active {
-    color: 'white';
+    color: rgb(30, 30, 37);
   }
   .hvr-shutter-out-horizontal-pink:hover:before, .hvr-shutter-out-horizontal-pink:focus:before, .hvr-shutter-out-horizontal-pink:active:before {
     -webkit-transform: scaleX(1);

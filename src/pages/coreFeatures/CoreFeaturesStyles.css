@@ -1,9 +1,9 @@
 .core-features-container{
-    height: 80vh;
     padding-left: 10%;
     padding-right: 10%;
     justify-content: center;
     align-items: center;
+    margin: 8% 0;
 
 }
 
@@ -17,13 +17,15 @@
 .core-features-container-para{
     margin-top: -2rem;
     margin-bottom: 1rem;
+    line-height: 25px;
 }
 .core-feature-card{
     display: flex;
     align-items: flex-start;
-    width: 25%;
+    width: 30%;
     height: 150px;
     justify-content: space-between;
+    margin: 0.5rem 0;
 }
 .core-featrure-card-title{
     padding: 0.5rem 0;
@@ -39,14 +41,23 @@ align-items: flex-start;
 .core-features-flex-1{
     display: flex;
     justify-content: space-around;
-
+   
 }
-.button-container{ display:flex;align-items:center; justify-content: center }
+.button-container{ display:flex;align-items:center; justify-content: center; margin: 1rem 0; }
 /* animation */
+
 .scroll-left {
- height: 50px;	
+ height: 120px;	
  overflow: hidden;
  position: relative;
+ text-align: center;
+}
+.scrolling-text{
+    font-size: 90px;
+    font-weight: bold;
+     text-shadow: 1px 1px 2px black; 
+     background-color: red;
+     height: 120px;
 }
 .scroll-left p {
  position: absolute;
@@ -105,6 +116,7 @@ align-items: flex-start;
         align-items: flex-start;
         width: 100%;
         margin-bottom: -2rem;
+        margin: 0.2rem 0;
     }
 
 
@@ -117,7 +129,7 @@ align-items: flex-start;
     .core-features-container-para{
         padding-bottom: 1rem;
     }
-
+    .button-container{ display:flex;align-items:center; justify-content: center; margin:  0; }
 
     
 }

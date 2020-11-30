@@ -6,21 +6,21 @@ import './ContactUsStyles.css';
 
 const ContactUs = () => {
   return (
-    <div class='flex-container'>
+    <div id='contact' class='flex-container'>
       <div class='flex-child-1'>
-        <h1 style={{ padding: '1.5rem 0' }}>Keep in touch.</h1>
-        <p style={{ padding: '1.5rem 0', color: 'black' }}>
+        <h1 style={{ padding: '1.5rem 0', color: 'white' }}>Keep in touch.</h1>
+        <p style={{ padding: '1.5rem 0', color: 'white' }}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab
           consequuntur repellat? Commodi, fuga error.
         </p>
         <div className='address'>
-          <p style={{ padding: '0.5rem 0', color: 'black' }}>
+          <p style={{ padding: '0.5rem 0', color: 'white' }}>
             Address : 9/1477-23,Shanthinagar Colony
           </p>
-          <p style={{ padding: '0.5rem 0', color: 'black' }}>
+          <p style={{ padding: '0.5rem 0', color: 'white' }}>
             Phone Number : +91 8919308004
           </p>
-          <p style={{ padding: '0.5rem 0', color: 'black' }}>
+          <p style={{ padding: '0.5rem 0', color: 'white' }}>
             Email : ramubugudi4@gmail.com
           </p>
         </div>

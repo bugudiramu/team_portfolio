@@ -6,9 +6,9 @@ import CustomPinkButton from './../../components/button/CustomPinkButton';
 const CoreFeatures = () => {
   return (
     <div className='core-features-container'>
-      <div class='scroll-left'>
-        <p>CSS scrolling text... </p>
-      </div>
+      {/* <div class='scroll-left'>
+        <p className='scrolling-text'>CSS scrolling text... </p>
+      </div> */}
 
       <h1 className='core-features-container-heading'>Core Features</h1>
       <p className='core-features-container-para'>

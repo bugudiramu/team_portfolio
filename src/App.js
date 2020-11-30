@@ -17,9 +17,9 @@ function App() {
       <CustomCyanButton /> */}
       <Navigation />
       <Hero />
-      <CoreFeatures />
       <Services />
       <ProductInfo />
+      <CoreFeatures />
       <Projects />
       <ContactUs />
       <Maps />

@@ -20,7 +20,7 @@ const Navigation = () => {
     document.querySelector('.mobileMenu').classList.add('close');
   };
   return (
-    <div style={{ position: 'fixed' }}>
+    <div>
       <div className='navigation_container'>
         <div className='menu'>
           {!isOpen ? (
@@ -39,14 +39,24 @@ const Navigation = () => {
           {/* <h3 className='brand_head'>HI</h3> */}
         </div>
         <div className='branding'>
-          <h3 className='brand_head'>Web-Ninjas</h3>
+          <h3 className='brand_head'>
+            <a href='#home'>Web-Ninjas</a>
+          </h3>
         </div>
         <div className='options'>
           <ul>
-            <li className='each_navitem'>HOME</li>
-            <li className='each_navitem'>ABOUT</li>
-            <li className='each_navitem'>PORTFOLIO</li>
-            <li className='each_navitem'>CONTACT US</li>
+            <li className='each_navitem'>
+              <a href='#services'>SERVICES</a>
+            </li>
+            <li className='each_navitem'>
+              <a href='#about'>ABOUT</a>
+            </li>
+            <li className='each_navitem'>
+              <a href='#projects'>PORTFOLIO</a>
+            </li>
+            <li className='each_navitem'>
+              <a href='#contact'>CONTACT US</a>{' '}
+            </li>
           </ul>
         </div>
       </div>
@@ -56,10 +66,7 @@ const Navigation = () => {
             <p style={{ fontSize: '13px' }}>HOME</p>
           </div>
           <div>
-            <FontAwesomeIcon
-              icon={faChevronRight}
-              style={{ fontSize: 13, marginRight: '5rem' }}
-            />
+            <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13 }} />
           </div>
         </div>
         <div
@@ -74,10 +81,7 @@ const Navigation = () => {
             <p style={{ fontSize: '13px' }}>ABOUT</p>
           </div>
           <div>
-            <FontAwesomeIcon
-              icon={faChevronRight}
-              style={{ fontSize: 13, marginRight: '5rem' }}
-            />
+            <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13 }} />
           </div>
         </div>
         <div
@@ -92,10 +96,7 @@ const Navigation = () => {
             <p style={{ fontSize: '13px' }}>PORTFOLIO</p>
           </div>
           <div>
-            <FontAwesomeIcon
-              icon={faChevronRight}
-              style={{ fontSize: 13, marginRight: '5rem' }}
-            />
+            <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13 }} />
           </div>
         </div>
         <div
@@ -110,10 +111,7 @@ const Navigation = () => {
             <p style={{ fontSize: '13px' }}>CONTACT US</p>
           </div>
           <div>
-            <FontAwesomeIcon
-              icon={faChevronRight}
-              style={{ fontSize: 13, marginRight: '5rem' }}
-            />
+            <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13 }} />
           </div>
         </div>
         <div
