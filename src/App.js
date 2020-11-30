@@ -29,3 +29,15 @@ function App() {
 }
 
 export default App;
+{
+  /* <Switch>
+          <Route path="/" exact component={Hero} />
+          <Route path="/features" component={CoreFeatures} />
+          <Route path="/" exact component={Services} />
+          <Route path="/features" component={ProductInfo} />
+          <Route path="/" exact component={Projects} />
+          <Route path="/features" component={ContactUs} />
+          <Route path="/features" component={Maps} />
+          <Route path="/features" component={Footer} />
+      </Switch> */
+}
