@@ -13,7 +13,7 @@ const CoreFeatureCard = () => {
         <h3 className='core-featrure-card-title'>Creative Design</h3>
         <p className='core-featrure-card-subtitle'>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus,
-          ad.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. ad.
         </p>
       </div>
     </div>
@@ -21,3 +21,4 @@ const CoreFeatureCard = () => {
 };
 
 export default CoreFeatureCard;
+

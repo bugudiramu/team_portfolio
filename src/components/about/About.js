@@ -1,10 +1,13 @@
 import React from 'react';
-import './AboutStyles.js';
+import './AboutStyles.css';
 import AboutItem from './AboutItem';
 
 const About = () => {
      return (
-          <div></div>
+          <div className='about-container'>
+               <AboutItem />
+               <AboutItem />
+          </div>
      );
 }
 

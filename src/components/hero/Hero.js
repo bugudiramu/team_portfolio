@@ -7,7 +7,7 @@ import CustomCyanButton from '../button/CustomCyanButton';
 
 const Hero = () => {
   return (
-    <div className='hero-image'>
+    <div id='home' className='hero-image'>
       <div
         style={{
           justifyContent: 'center',

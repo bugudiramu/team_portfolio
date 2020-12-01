@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
   padding: 0;
@@ -19,4 +20,15 @@ body{
 ::selection {
   color: white;
   background: #10ac84;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+@media(max-width:600px){
+  a{
+    color: black;
+    
+  }
 }

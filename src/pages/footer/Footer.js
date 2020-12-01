@@ -14,9 +14,6 @@ const Footer = () => {
             debitis? Similique vitae possimus exercitationem sit magnam incidunt
             fugiat unde a officiis omnis.
           </p>
-          <p className='footer-flex-1-para'>
-            &copy; 2019 Leedo HTML5 Template. All rights reserved.
-          </p>
         </div>
         <div className='footer-flex-2'>
           <h3 className='footer-flex-1-h3'>Quick Links</h3>
@@ -74,6 +71,9 @@ const Footer = () => {
             <CustomPinkButton text='OK' />
           </div>
         </div>
+        <p className='footer-flex-1-para'>
+          &copy; 2019 Leedo HTML5 Template. All rights reserved.
+        </p>
       </div>
     </div>
   );

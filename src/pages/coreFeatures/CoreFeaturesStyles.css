@@ -1,9 +1,9 @@
 .core-features-container{
-    height: 80vh;
     padding-left: 10%;
     padding-right: 10%;
     justify-content: center;
     align-items: center;
+    margin: 8% 0;
 
 }
 
@@ -22,10 +22,10 @@
 .core-feature-card{
     display: flex;
     align-items: flex-start;
-    width: 25%;
+    width: 30%;
     height: 150px;
     justify-content: space-between;
-    margin: 1rem 0;
+    margin: 0.5rem 0;
 }
 .core-featrure-card-title{
     padding: 0.5rem 0;
@@ -45,10 +45,19 @@ align-items: flex-start;
 }
 .button-container{ display:flex;align-items:center; justify-content: center; margin: 1rem 0; }
 /* animation */
+
 .scroll-left {
- height: 50px;	
+ height: 120px;	
  overflow: hidden;
  position: relative;
+ text-align: center;
+}
+.scrolling-text{
+    font-size: 90px;
+    font-weight: bold;
+     text-shadow: 1px 1px 2px black; 
+     background-color: red;
+     height: 120px;
 }
 .scroll-left p {
  position: absolute;

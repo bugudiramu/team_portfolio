@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useEffect } from 'react';
+import React from 'react';
 import ContactUs from './pages/contact/ContactUs';
 import Footer from './pages/footer/Footer';
 import Testimonial from './pages/testimonials/Testimonial';
@@ -10,23 +10,19 @@ import CoreFeatures from './pages/coreFeatures/CoreFeatures';
 import Navigation from './components/navigation/Navigation';
 import Hero from './components/hero/Hero';
 import Projects from './components/projects/Projects';
-import Aos from 'aos';
-import 'aos/dist/aos.css'
-
+import About from './components/about/About';
 function App() {
-  useEffect(() => {
-    Aos.init({ duration: 1500 })
-  }, [])
   return (
-    <div className='App' data-aos="fade-up">
+    <div className='App'>
       {/* <CustomPinkButton />
       <CustomCyanButton /> */}
       <Navigation />
       <Hero />
-      <CoreFeatures />
       <Services />
       <ProductInfo />
+      <CoreFeatures />
       <Projects />
+      <About />
       <ContactUs />
       <Maps />
       <Footer />
@@ -35,3 +31,15 @@ function App() {
 }
 
 export default App;
+{
+  /* <Switch>
+          <Route path="/" exact component={Hero} />
+          <Route path="/features" component={CoreFeatures} />
+          <Route path="/" exact component={Services} />
+          <Route path="/features" component={ProductInfo} />
+          <Route path="/" exact component={Projects} />
+          <Route path="/features" component={ContactUs} />
+          <Route path="/features" component={Maps} />
+          <Route path="/features" component={Footer} />
+      </Switch> */
+}
