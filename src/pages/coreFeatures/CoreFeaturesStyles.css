@@ -13,11 +13,13 @@
     padding: 2rem 0;
     width: 40%;
     margin: 0 auto;
+    color: #3F3D56;
 }
 .core-features-container-para{
     margin-top: -2rem;
     margin-bottom: 1rem;
     line-height: 25px;
+    color: #4e4e4e;
 }
 .core-feature-card{
     display: flex;
@@ -27,8 +29,13 @@
     justify-content: space-between;
     margin: 0.5rem 0;
 }
-.core-featrure-card-title{
+.core-featrure-card-title:nth-child(1) {
     padding: 0.5rem 0;
+    color: #EB3B5A;
+
+}
+.core-featrure-card-subtitle{
+    color: #4e4e4e;
 }
 .core-feature-card-img{
 height: 50px;

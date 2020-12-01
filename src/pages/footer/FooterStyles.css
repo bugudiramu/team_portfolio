@@ -1,5 +1,5 @@
 .footer-container{
-    height: 50vh;
+    height: 40vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -31,15 +31,26 @@
 }
 .footer-flex-1-h3{
     padding: 1.5rem 0;
-    color:#aaa
+    color:#ffffff
 }
 .footer-flex-1-para{
     padding: 0.5rem 0;
     color:#aaa
 }
+.footer-flex-1-para,#footer-links>a{
+    color: #A2A1A9;
+}
+#footer-links>a:hover{
+    color: #e4e4e4;
+}
+.footer-flex-1-copyright{
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #111;
+    color: #ffffff;
+}
 #footer-links{
     padding: 0.2rem 0;
-    color: #ccc;
 }
 
 

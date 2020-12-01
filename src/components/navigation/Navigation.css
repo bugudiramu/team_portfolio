@@ -1,6 +1,7 @@
 .navigation_container{
      position: fixed;
-     background-color: #191919;
+     /* background-color: #191919; */
+     background-color: #000;
      padding:  1.5rem 0rem;
      width: 100%;
      align-items: center;
@@ -36,6 +37,13 @@
 }
 .brand_head{
      color: white;
+}
+.brand_head>a:hover{
+     color: #e4e4e4;
+}
+.each_navitem>a:hover{
+     color: #e4e4e4;
+
 }
 .mobileMenu{
       display: none;    

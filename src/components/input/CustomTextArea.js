@@ -4,7 +4,7 @@ import './CustomTextInputStyles.css';
 const CustomTextArea = ({ placeholder }) => {
   return (
     <textarea
-      maxLength='50'
+      maxLength='500'
       placeholder={placeholder}
       className='customTextArea'
     />

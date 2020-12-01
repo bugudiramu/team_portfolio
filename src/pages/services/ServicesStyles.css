@@ -33,7 +33,7 @@
     color: #3F3D56;
 }
 .service-container-para{
-    color: #575664;
+   color: #4e4e4e;
 }
 .service-container-paragraph{
     text-align: center;
@@ -41,6 +41,7 @@
     width: 40%;
     margin: 0 auto;
     line-height: 25px;
+    color: #4e4e4e;
 }
 
 @media(max-width:600px){

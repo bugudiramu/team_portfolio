@@ -10,7 +10,7 @@ const Services = () => {
     <div id='services' className='service-container'>
       <h1 className='highlight-word-container'>
         <span className='highlight-word'>We are</span>{' '}
-        <span style={{ color: '#00bec5' }} className='highlight-word'>
+        <span style={{ color: '#3F3D56' }} className='highlight-word'>
           design & development
         </span>
         <br />
@@ -23,25 +23,24 @@ const Services = () => {
         style={{ paddingBottom: '2rem' }}
       >
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa nihil
-        maxime, quod labore corporis, reiciendis esse officiis maiores sint
-        quibusdam laborum!
+        maxime, quod labore corporis.
       </p>
       <br />
       {/* Service card */}
       <div className='service-card-container'>
         <ServiceCard
           image={web}
-          title='web development'
+          title='Web development'
           description='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non cupiditate explicabo pariatur perspiciatis? Maiores, similique!'
         />
         <ServiceCard
           image={app}
-          title='app development'
+          title='App development'
           description='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non cupiditate explicabo pariatur perspiciatis? Maiores, similique!'
         />
         <ServiceCard
           image={design}
-          title='ui/ux design'
+          title='UI/UX design'
           description='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non cupiditate explicabo pariatur perspiciatis? Maiores, similique!'
         />
       </div>
