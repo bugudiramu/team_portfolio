@@ -9,14 +9,14 @@ const Services = () => {
   return (
     <div id='services' className='service-container'>
       <h1 className='highlight-word-container'>
-        <span className='highlight-word'>We are</span>{' '}
-        <span style={{ color: '#3F3D56' }} className='highlight-word'>
-          design & development
+        <span className='highlight-word'>We are team of</span>{' '}
+        <span style={{ color: '#10ac84' }} className='highlight-word'>
+          passionate devlopers
         </span>
         <br />
-        <span className='highlight-word'> team that is proud of</span>
-        <br />
-        <span className='highlight-word'>our work.</span>
+        <span className='highlight-word'>love to work on</span>
+        {/* <br /> */}
+        {/* <span className='highlight-word'>work on</span> */}
       </h1>
       <p
         className='service-container-paragraph'

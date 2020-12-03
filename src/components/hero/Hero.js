@@ -18,14 +18,28 @@ const Hero = () => {
         }}
       >
         <p className='hero-text'>we create</p>
-        <p className='hero-text'>digital branding</p>
+        <p
+          style={{
+            color: '#10ac84',
+            display: 'inline',
+            fontWeight: 'bolder',
+            textShadow: '0px 0px 60px #10ac84',
+          }}
+          className='hero-text'
+        >
+          awesome digital
+        </p>
         <p className='hero-text'>products.</p>
         <div className='hero-button-group'>
           <div className='hero-each-button'>
-            <CustomPinkButton text='SEND MESSAGE' />
+            <a href='#contact'>
+              <CustomPinkButton text='SEND MESSAGE' />
+            </a>
           </div>
           <div className='hero-each-button'>
-            <CustomCyanButton text='VIEW PROJECTS' />
+            <a href='#projects'>
+              <CustomCyanButton text='VIEW PROJECTS' />
+            </a>
           </div>
         </div>
       </div>

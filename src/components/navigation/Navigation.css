@@ -1,7 +1,7 @@
 .navigation_container{
      position: fixed;
      /* background-color: #191919; */
-     background-color: #000;
+     background-color: #111;
      padding:  1.5rem 0rem;
      width: 100%;
      align-items: center;
@@ -62,13 +62,15 @@
      }
      .navigation_container{
           position: fixed;
-          background-color: white;
+          background-color: #111;
+          color: white;
           padding:  1.5rem 0rem;
           width: 100%;
           align-items: center;
           justify-content: space-between;
           display: flex;
           flex-direction: row;
+          z-index: 1000;
      }
      .options{
           /* padding-left: 5rem; */
@@ -78,8 +80,11 @@
           display: none;
      }
      .brand_head{
-          color: black;
+        
           margin-right: 4rem;
+     }
+     .brand_head>a{
+          color: white;
      }
      .branding{
           padding-left: 0;
@@ -98,6 +103,7 @@
           padding:  0;
           transition: transform 0.3s ease-out;
           overflow-y: none;
+          z-index: 999;
           /* display: none; */
           /* transition-property: all;
 	transition-duration: .5s; */

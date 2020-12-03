@@ -61,14 +61,16 @@ const Navigation = () => {
         </div>
       </div>
       <div className='mobileMenu close'>
-        <div className='eachMobileItem'>
-          <div>
-            <p style={{ fontSize: '13px' }}>HOME</p>
+        <a href='#'>
+          <div className='eachMobileItem' onClick={closeNav}>
+            <div>
+              <p style={{ fontSize: '13px' }}>HOME</p>
+            </div>
+            <div>
+              <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13 }} />
+            </div>
           </div>
-          <div>
-            <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13 }} />
-          </div>
-        </div>
+        </a>
         <div
           style={{
             padding: '0.5px',
@@ -76,14 +78,16 @@ const Navigation = () => {
             width: '100%',
           }}
         ></div>
-        <div className='eachMobileItem'>
-          <div>
-            <p style={{ fontSize: '13px' }}>ABOUT</p>
+        <a href='#about'>
+          <div className='eachMobileItem' onClick={closeNav}>
+            <div>
+              <p style={{ fontSize: '13px' }}>ABOUT</p>
+            </div>
+            <div>
+              <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13 }} />
+            </div>
           </div>
-          <div>
-            <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13 }} />
-          </div>
-        </div>
+        </a>
         <div
           style={{
             padding: '0.5px',
@@ -91,14 +95,16 @@ const Navigation = () => {
             width: '100%',
           }}
         ></div>
-        <div className='eachMobileItem'>
-          <div>
-            <p style={{ fontSize: '13px' }}>PORTFOLIO</p>
+        <a href='#projects'>
+          <div className='eachMobileItem' onClick={closeNav}>
+            <div>
+              <p style={{ fontSize: '13px' }}>PORTFOLIO</p>
+            </div>
+            <div>
+              <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13 }} />
+            </div>
           </div>
-          <div>
-            <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13 }} />
-          </div>
-        </div>
+        </a>
         <div
           style={{
             padding: '0.5px',
@@ -106,14 +112,16 @@ const Navigation = () => {
             width: '100%',
           }}
         ></div>
-        <div className='eachMobileItem'>
-          <div>
-            <p style={{ fontSize: '13px' }}>CONTACT US</p>
+        <a href='#contact'>
+          <div className='eachMobileItem' onClick={closeNav}>
+            <div>
+              <p style={{ fontSize: '13px' }}>CONTACT US</p>
+            </div>
+            <div>
+              <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13 }} />
+            </div>
           </div>
-          <div>
-            <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13 }} />
-          </div>
-        </div>
+        </a>
         <div
           style={{
             padding: '0.5px',

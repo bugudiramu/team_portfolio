@@ -83,7 +83,7 @@ const Footer = () => {
         </div>
       </div>
       <p className='footer-flex-1-copyright'>
-        &copy; 2019 Leedo HTML5 Template. All rights reserved.
+        &copy; 2020 Web-Ninjas. All rights reserved.
       </p>
     </>
   );

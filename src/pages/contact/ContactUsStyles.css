@@ -53,12 +53,14 @@ margin-top: 20%;
     }
     .flex-child-2{
         width: 100%;
+        
     }
-  
+    
     .flex-child-2-input{
         display: flex;
         flex-direction: column;
         padding: 0;
+        width: 100%;
     
     }
     
