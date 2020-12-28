@@ -1,9 +1,15 @@
 import React from 'react';
 import './CustomTextInputStyles.css';
 
-const CustomTextInput = ({ placeholder }) => {
+const CustomTextInput = ({ placeholder, onChange, value }) => {
   return (
-    <input type='text' placeholder={placeholder} className='customTextInput' />
+    <input
+      type='text'
+      placeholder={placeholder}
+      className='customTextInput'
+      onChange={onChange}
+      value={value}
+    />
   );
 };
 

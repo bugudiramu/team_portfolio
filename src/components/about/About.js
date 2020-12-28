@@ -2,7 +2,7 @@ import React from 'react';
 import './AboutStyles.css';
 import AboutItem from './AboutItem';
 import kk from './../../assets/kk.jpg';
-import ramu from './../../assets/ramu.jpeg';
+import ramu from './../../assets/ramu.jpg';
 
 let socialLinks = {
   r: {

@@ -1,9 +1,12 @@
 import React from 'react';
 import './CustomPinkButtonStyles.css';
 
-const CustomPinkButton = ({ text }) => {
+const CustomPinkButton = ({ text, onClick }) => {
   return (
-    <button className='hvr-shutter-out-horizontal-pink customPinkButton'>
+    <button
+      onClick={onClick}
+      className='hvr-shutter-out-horizontal-pink customPinkButton'
+    >
       {text}
     </button>
   );

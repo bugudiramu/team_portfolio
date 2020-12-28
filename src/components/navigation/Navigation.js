@@ -46,16 +46,21 @@ const Navigation = () => {
         <div className='options'>
           <ul>
             <li className='each_navitem'>
-              <a href='#services'>SERVICES</a>
-            </li>
-            <li className='each_navitem'>
               <a href='#about'>ABOUT</a>
             </li>
             <li className='each_navitem'>
               <a href='#projects'>PORTFOLIO</a>
             </li>
             <li className='each_navitem'>
-              <a href='#contact'>CONTACT US</a>{' '}
+              <a href='#contact'>CONTACT US</a>
+            </li>
+            <li className='each_navitem'>
+              <a
+                href='https://personal-blog-6b121.firebaseapp.com/'
+                target='_blank'
+              >
+                BLOG
+              </a>
             </li>
           </ul>
         </div>
@@ -116,6 +121,23 @@ const Navigation = () => {
           <div className='eachMobileItem' onClick={closeNav}>
             <div>
               <p style={{ fontSize: '13px' }}>CONTACT US</p>
+            </div>
+            <div>
+              <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13 }} />
+            </div>
+          </div>
+        </a>
+
+        <a href='#services'>
+          <div className='eachMobileItem' onClick={closeNav}>
+            <div>
+              <a
+                href='https://personal-blog-6b121.firebaseapp.com/'
+                target='_blank'
+                style={{ fontSize: '13px' }}
+              >
+                BLOG
+              </a>
             </div>
             <div>
               <FontAwesomeIcon icon={faChevronRight} style={{ fontSize: 13 }} />
